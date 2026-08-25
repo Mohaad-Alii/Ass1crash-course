@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechZone Store</title>
+</head>
+
+<body>
+
+    <h1>TechZone Store</h1>
+
+    <h2>Wireless Headphones</h2>
+
+    <img 
+        src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
+        alt="Wireless Headphones"
+        width="350"
+    >
+
+    <p>
+        Enjoy high-quality sound with comfortable wireless headphones.
+        Perfect for studying, music, online classes, and everyday use.
+    </p>
+
+    <h3>Special Offer: 20% OFF</h3>
+
+    <p>
+        <del>$75</del>
+        <strong>$60</strong>
+    </p>
+
+    <a href="#order">Order Now</a>
+
+    <hr>
+
+    <h2 id="order">Order Your Headphones</h2>
+
+    <form>
+
+        <label for="fullname">Full Name:</label>
+        <input 
+            type="text" 
+            id="fullname" 
+            name="fullname"
+            placeholder="Enter your full name"
+            required
+        >
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input 
+            type="email" 
+            id="email" 
+            name="email"
+            placeholder="Enter your email address"
+            required
+        >
+
+        <br><br>
+
+        <label for="quantity">Quantity:</label>
+        <input 
+            type="number" 
+            id="quantity" 
+            name="quantity"
+            value="1"
+            min="1"
+        >
+
+        <br><br>
+
+        <label for="color">Choose Color:</label>
+
+        <select id="color" name="color">
+            <option value="black">Black</option>
+            <option value="white">White</option>
+            <option value="blue">Blue</option>
+        </select>
+
+        <br><br>
+
+        <input 
+            type="checkbox" 
+            id="terms" 
+            name="terms"
+            required
+        >
+
+        <label for="terms">
+            I agree to the terms and conditions.
+        </label>
+
+        <br><br>
+
+        <button type="submit">Confirm Order</button>
+
+    </form>
+
+    <hr>
+
+    <p>&copy; 2026 TechZone Store</p>
+
+</body>
+</html>

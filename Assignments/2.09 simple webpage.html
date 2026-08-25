@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Morgan - Personal Bio</title>
+</head>
+<body>
+
+    <!-- Main Header -->
+    <header id="main-header" class="site-header">
+        <h1 class="header-title">Alex Morgan</h1>
+        <p class="tagline">Frontend Developer &amp; Accessibility Advocate</p>
+        
+        <!-- Navigation -->
+        <nav id="primary-nav" class="navigation" aria-label="Main Navigation">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main id="main-content" class="content-container">
+
+        <!-- About Section -->
+        <section id="about" class="bio-section">
+            <h2>About Me</h2>
+            <figure class="profile-figure">
+                <img src="https://via.placeholder.com/150" alt="Headshot of Alex Morgan smiling" width="150" height="150" class="profile-img">
+                <figcaption class="caption">Alex Morgan at Tech Conference 2026</figcaption>
+            </figure>
+            <p>
+                Hello! I am a passionate web developer focused on creating accessible, performant, and clean web applications. I believe that writing semantic HTML is the foundation of a great web experience for everyone.
+            </p>
+        </section>
+
+        <!-- Interactive Element & Details Section -->
+        <section id="skills" class="skills-section">
+            <h2>Skills &amp; Interests</h2>
+            <ul class="skills-list">
+                <li>Semantic HTML5 &amp; WAI-ARIA</li>
+                <li>CSS Grid &amp; Flexbox</li>
+                <li>JavaScript (ES6+)</li>
+            </ul>
+
+            <!-- Interactive Collapsible Detail Element -->
+            <details class="interactive-details">
+                <summary class="summary-title">Click to view current projects</summary>
+                <p>Currently building an open-source tool to help developers audit their code for W3C compliance.</p>
+            </details>
+        </section>
+
+        <!-- Accessible Form Section -->
+        <section id="contact" class="contact-section">
+            <h2>Get in Touch</h2>
+            <form action="#" method="post" id="contact-form" class="user-form">
+                
+                <div class="form-group">
+                    <label for="full-name">Full Name:</label><br>
+                    <input type="text" id="full-name" name="user_name" required aria-required="true">
+                </div>
+
+                <div class="form-group">
+                    <label for="email-address">Email Address:</label><br>
+                    <input type="email" id="email-address" name="user_email" required aria-required="true">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="user_message" rows="4" required aria-required="true"></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="main-footer" class="site-footer">
+        <p>&copy; 2026 Alex Morgan. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
