@@ -1,0 +1,25 @@
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+    font-family: Arial, sans-serif;
+}
+
+article {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgb(250, 248, 137);
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.important {
+    text-decoration: underline;
+}
