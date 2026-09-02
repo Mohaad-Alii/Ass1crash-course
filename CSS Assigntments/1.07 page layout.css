@@ -1,0 +1,13 @@
+.content-box{
+    margin-bottom: 40px;
+}
+.navbar {
+    margin-bottom: 40px;
+}
+.footer{
+    margin-bottom: 40px;
+}
+.content-box, .footer, .navbar{
+    background-color: #fff00f;
+    border: 1px solid #0000;
+}

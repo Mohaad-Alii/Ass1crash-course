@@ -1,0 +1,40 @@
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote{
+    font-family: 'Times New Roman', Times, serif;
+    width: 80%;
+    height: 50%;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 15px;
+    font-size: x-large;
+    
+}
+#quote1{
+    background-color: aqua;
+    border: solid 3px #0d8a72;
+    box-shadow:  2px 4px 8px rgba(0, 0, 0 , 0.2);
+}
+#quote2{
+    background-color: rgb(71, 71, 4);
+    color: aliceblue;
+    border: dashed 3px;
+    box-shadow:  2px 4px 8px rgba(0, 0, 0 , 0.3);
+   
+}
+#quote3{
+background-color: rgb(184, 156, 175);
+border: dashed 3px #7a5c6e;
+box-shadow:  2px 4px 8px rgba(0, 0, 0 , 0.15);
+}
+#quote4{
+    background-color: blueviolet;
+    color: blanchedalmond;
+    border: 3px double #4a3478;
+    box-shadow:  2px 4px 8px rgba(0, 0, 0 , 0.25);
+}
