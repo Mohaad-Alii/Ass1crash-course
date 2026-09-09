@@ -1,0 +1,15 @@
+#div1{
+    display: block;
+    background-color: lightblue;
+}
+#span1{
+display: inline;
+background-color: yellow;
+}
+#div2{
+    display: none;
+}
+#span2{
+    display: block;
+    background-color: lightgreen;
+}

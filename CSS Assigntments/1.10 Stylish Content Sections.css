@@ -1,0 +1,23 @@
+.interest-section{
+    width: 80vw;
+    height: 50vh;
+    margin: 5vh 0;
+    padding: 20px;
+ text-align: center;
+}
+#books{
+    background-color: lightblue;
+}
+#movies{
+    background-color: lightgray;
+}
+#foods{
+    background-color: lightgreen;
+}
+
+.interest-section h1{
+font-size: 24px;
+}
+.interest-section p{
+    font-size: 16px;
+}
