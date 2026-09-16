@@ -1,0 +1,109 @@
+.navbar{
+    display: fixed;
+}
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo img{
+display: inline;
+width:100px;
+height: 50px;
+
+}
+
+.nav-menu {
+    display: inline-block;
+    vertical-align: middle;
+    
+    width: 90%;
+    height: 50px;
+    
+
+}
+.nav-menu ul{
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-menu li{
+    display: inline-block;
+    margin-left: 40px;
+    justify-content: space-between;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.background-image{
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('web-image/background-image.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 0 20px;
+}
+/* part3 two div */
+.section{
+    display: inline-block;
+  
+}
+.text{
+  display: inline-block;
+   width: 48%;
+    height: 350px;
+     border: 3px solid #333;
+    background-color: aliceblue
+}
+.img{
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}
+.img img{
+    
+     width: 100%;
+    height: 350px;
+    
+}
+/* profile */
+.profile{
+    border: 2px  dashed rgb(65, 48, 83);
+}
+h1{
+    text-align: center;
+    
+}
+.profile-card {
+    display: inline-block;
+    width: 21%;
+    background-color: olive;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 4px;
+}
+
+.profile-card img {
+    width: 100px;
+    height: 100px;
+    border: 1px dashed tomato;
+    border-radius: 50%;
+}
+.footer{
+    background-color: rgba(39, 39, 223, 0.527);
+    width: 100vw;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+}
